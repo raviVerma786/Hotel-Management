@@ -281,5 +281,53 @@ html{
     padding-right: 31px;
   }
   
+/* Media queries */
+@media screen and (min-width:400px) and (max-width:960px) {
+    #services {
+        display: grid;
+        /* height: 40rem; */
+        grid-template-areas:
+            'heading heading heading'
+            'food food food'
+            'rooms rooms rooms'
+            'partyhall partyhall partyhall';
+        grid-gap: 1rem;
+        position: relative;
+        z-index: 1;
+        /* margin-top: 12.3%; */
+    }
+}
+@media screen and (max-width:400px){
+    #services {
+        display: grid;
+        /* height: 40rem; */
+        grid-template-areas:
+            'heading heading heading'
+            'food food food'
+            'rooms rooms rooms'
+            'partyhall partyhall partyhall';
+        grid-gap: 1rem;
+        position: relative;
+        z-index: 1;
+        /* margin-top: 12.3%; */
+    }
+    p {
+        font-size: 0.7rem;
+        text-shadow: 0.7px 0.7px rgb(212, 137, 17);
+        font-family: 'Bree Serif', serif;
+    }
+    #home {
+        padding:0;
+        font-size: 1rem;
+    }
+    #home p{
+        text-align: center;
+    }
+    .hprimary {
+        font-size:1rem;
+        padding: 0;
+        text-shadow: 4px 4px black;
+    }
+}
   
   
