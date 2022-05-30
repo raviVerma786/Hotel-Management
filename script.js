@@ -1,13 +1,4 @@
-var images = ['service.jpg','contact.jpg'];
-function changePicture() {
-    // document.body.style.backgroundImage = images[i]
-    if (i < images.length - 1) {
-        i++;
-    } else {
-        i = 0;
-    }
-
-    setTimeout("changePicture()", slideTime);
-}
-
-window.onload = changePicture;
+var btn = document.querySelector("#submitButton");
+btn.addEventListener("click",()=>{
+    alert("Your have Checked-In ! \nYour room is booked.\nPayment will be done on arrival.");
+})
