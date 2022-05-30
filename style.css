@@ -326,6 +326,7 @@ html{
     .hprimary {
         font-size:1rem;
         padding: 0;
+        text-align: center;
         text-shadow: 4px 4px black;
     }
 }
