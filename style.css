@@ -48,6 +48,7 @@ nav::before {
     display: flex;
     flex-direction: column;
     padding: 3px 200px;
+    /* height: 33.33rem; */
     height: 100vh;
     justify-content: center;
     align-items: center;
