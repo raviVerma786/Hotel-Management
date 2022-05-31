@@ -48,6 +48,7 @@ html{
             font-family: 'Bree Serif', serif;
             font-size: 1.5rem;
             color: white;
+            position: relative;
         }
         #home::before{
             content: attr(data-before);
@@ -296,6 +297,9 @@ html{
         z-index: 1;
         /* margin-top: 12.3%; */
     }
+     #contact-box form {
+        width: 55%;
+    }
 }
 @media screen and (max-width:400px){
     #services {
@@ -328,6 +332,9 @@ html{
         padding: 0;
         text-align: center;
         text-shadow: 4px 4px black;
+    }
+    #contact-box form {
+        width: 70%;
     }
 }
   
